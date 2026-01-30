@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dtypes2strings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtypes2strings@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-dtypes2strings/tags). For example,
+
+```javascript
 import dtypes2strings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtypes2strings@v0.1.0-esm/index.mjs';
 ```
 
@@ -105,7 +110,7 @@ var out = dtypes2strings( [ 'foo', 'bar' ] );
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import dtypes2strings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtypes2strings@v0.1.0-esm/index.mjs';
+import dtypes2strings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtypes2strings@esm/index.mjs';
 
 // Get the list of supported data types:
 var dt = dtypes();
