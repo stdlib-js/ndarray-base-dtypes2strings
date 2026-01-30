@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dtypes2strings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtypes2strings@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-dtypes2strings/tags). For example,
+
+```javascript
 import dtypes2strings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtypes2strings@v0.1.0-deno/mod.js';
 ```
 
@@ -100,7 +105,7 @@ var out = dtypes2strings( [ 'foo', 'bar' ] );
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
-import dtypes2strings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtypes2strings@v0.1.0-deno/mod.js';
+import dtypes2strings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtypes2strings@deno/mod.js';
 
 // Get the list of supported data types:
 var dt = dtypes();
