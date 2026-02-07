@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dtypes2strings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtypes2strings@deno/mod.js';
+import dtypes2strings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtypes2strings@v0.1.1-deno/mod.js';
 ```
 
 #### dtypes2strings( dtypes )
@@ -100,7 +100,7 @@ var out = dtypes2strings( [ 'foo', 'bar' ] );
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
-import dtypes2strings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtypes2strings@deno/mod.js';
+import dtypes2strings from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-dtypes2strings@v0.1.1-deno/mod.js';
 
 // Get the list of supported data types:
 var dt = dtypes();
