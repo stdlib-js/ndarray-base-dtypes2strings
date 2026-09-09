@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,28 +16,33 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { DataType } from '@stdlib/types/ndarray';
 
 /**
-* Resolve a list of data type strings.
+* Resolves a list of data type strings.
 *
-* @module @stdlib/ndarray-base-dtypes2strings
+* ## Notes
+*
+* -   If the function is unable to resolve a data type string for a provided data type, the corresponding element in the returned array will be `null`.
+*
+* @param dtypes - list of data types
+* @returns results
 *
 * @example
-* var dtypes2strings = require( '@stdlib/ndarray-base-dtypes2strings' );
-*
 * var out = dtypes2strings( [ 'float32', 'float64' ] );
 * // returns [...]
 *
-* out = dtypes2strings( [ 'foo', 'bar' ] );
+* @example
+* var out = dtypes2strings( [ 'foo', 'bar' ] );
 * // returns [ null, null ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function dtypes2strings( dtypes: ArrayLike<DataType> ): Array<string|null>;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = dtypes2strings;
